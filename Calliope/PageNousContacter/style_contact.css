@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+main{
+    background-image: url("pexels-josh-hild-2422253.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 104%;;
+    margin-left:auto;
+    margin-right:auto;
+    height: 650px;
+    display : flex;
+    align-items: center;
+}
+
+
+.formulaire{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 15px;
+    max-width: 1500px;
+    color: white;
+
+}
+
+.news{
+    text-align : center;
+}
+
+.flex_form{
+    display :  flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#text{
+    height : 80px;
+
+}
+.button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border : none;
+    outline: none;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius : 3px;
+    align-self: center;
+    
+}
+
+button:hover{
+    background-color: grey;
+}
+
+input{
+    border: none;
+    margin: 5px;
+    padding : 5px;
+    outline:none;
+    border-radius: 3px;
+}

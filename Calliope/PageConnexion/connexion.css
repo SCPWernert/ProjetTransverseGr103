@@ -1,0 +1,131 @@
+
+body{
+    background-image: url("pexels-ekaterina-5608882.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;
+    margin-left: 0px
+}
+
+
+
+footer{
+    position : fixed;
+    bottom: 0;
+}
+
+.background{
+    height:90vh;
+    display : flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+h1{
+    text-align: center;
+    color : white;
+    font-size: x-large;
+  }
+
+p{
+    color: white;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+p:hover{
+    color: rgb(240, 240, 82);
+}
+
+
+.formulaire{
+    width:100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    box-shadow: 2px 2px 2px grey;
+    padding: 20px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 6px;
+    margin-right: 2px;
+    margin-left:4px;
+    border : none;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+button:hover{
+    background-color: grey;
+}
+
+.flex_form{
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+input{
+    border: none;
+    margin: 5px;
+    border-bottom: 1px solid grey;
+    padding : 5px;
+    outline:none;
+    flex-grow: 1;
+    border-radius: 3px;
+}
+
+input:invalid{
+    border-bottom: 1px solid red;
+    caret-color:red;
+    box-shadow: none;
+}
+
+.alert{
+    margin-left:auto;
+    margin-right:auto;
+    color : white;
+    padding : 5px;
+    border-radius : 3px;
+    background-color: rgba(255, 0, 0, 0.616);
+    margin-top : 15px;
+    width : max-content;
+}
+
+.success{
+    margin-left:auto;
+    margin-right:auto;
+    color : white;
+    padding : 5px;
+    border-radius : 3px;
+    background-color: rgba(172, 255, 47, 0.601);
+    margin-top : 15px;
+    width : max-content;
+}
+
+@media screen and (max-width: 1100px){
+    .formulaire{
+        max-width: 300px;
+    }
+    input, select, .button{
+        margin: 7px;
+    }
+}

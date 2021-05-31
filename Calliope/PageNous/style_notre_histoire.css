@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Abhaya Libre";
+    src: url("../Test page musée du louvre/abhaya-libre.regular.ttf");
+  }
+
+body{
+    margin-left:none;
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Title{
+    background-image: url("image/background1_nous.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-attachment:scroll;
+    min-height: 590px;
+	width: 100%;
+}
+
+.Title{
+    font-size: xx-large;
+    color:white;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top : 100px;
+    text-shadow: 2px 2px 7px black;
+}
+
+
+
+.paragraphe_quoi{
+    background-color: white;
+    color : black;
+    max-width: 600px;
+    width : 25%;
+    max-height: 380px;
+    padding: 20px;
+    align-self: center;
+}
+
+.background_paragraphe_quoi{
+    background-image: url("image/background2_nous.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-attachment:scroll;
+    min-height: 590px;
+	width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paragraphe_quoi_vide{
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.flex1{
+    margin-top: 60px;
+    color : white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.paragraphe_qui{
+    width : 25%;
+    max-height: max-content;
+    align-self: flex-end;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.img1f{
+
+    align-self: flex-end;
+    padding: 30px;
+}
+
+.img2f{
+    
+    align-self: flex-end;
+    padding: 30px;
+}
+
+.img1{
+    max-width : 360px;
+    width: 100%;
+}
+
+.img2{
+    max-width : 410px;
+    width: 100%;
+}
+
+h2{
+    color : white;
+    text-align : center;
+    padding: 50px;
+}
+
+.second{
+    display : flex;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.col_para{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paragraphe_quand, .paragraphe_ou, .paragraphe_comment, .paragraphe_pourquoi{
+    padding : 20px;
+}
+
+.img3{
+    width : 410px;
+}
+
+.img3f{ 
+    padding-left : 20px;
+    align-self: center;
+}
+
+.empty{
+
+    width: 400px;
+}
+
+
+

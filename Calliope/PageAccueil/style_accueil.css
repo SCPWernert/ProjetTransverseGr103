@@ -1,0 +1,384 @@
+* {margin:0; font-family: "Abhaya Libre";}
+
+html {scroll-behavior:smooth;}
+
+body {background-color:#E1B75A;}
+
+/* Partie 1 */
+header {background-color: #BDB76B;}
+
+h1 { font-size:70px; color:orange;}
+
+#partie1
+{
+    background-image: url("image/Mona Lisa.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    /*max-width:1550px;*/
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+#pt1_centre
+{
+    display:flex;
+    align-items:baseline;
+}
+
+#pt1_scroll
+{
+    display:flex;
+    align-items:flex-end;
+}
+
+#pt1_btn1, #pt1_btn2
+{
+    height:690px;
+    width:100px;
+    background-color:grey;
+    opacity:0;
+    display:flex;
+    align-items: center;
+}
+
+
+#pt1_btn1 div
+{
+    height:10px;
+    width:10px;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:2px solid white;
+    border-left:2px solid white;
+    transform:rotate(45deg);
+}
+
+#pt1_btn2 div
+{
+    height:10px;
+    width:10px;
+    margin-right:auto;
+    margin-left:auto;
+    border-top:2px solid white;
+    border-right:2px solid white;
+    transform:rotate(45deg);
+}
+
+
+#pt1_btn1:hover, #pt1_btn1:focus, #pt1_btn1:active, 
+#pt1_btn2:hover, #pt1_btn2:focus, #pt1_btn2:active
+{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+#scroll-down, #scroll-down2
+{
+    height:50px;
+    width:30px;
+    border: 2px solid black;
+    background-color: black;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:50px;
+    bottom:20px;
+    cursor:pointer;
+    opacity:0.5;
+    padding-top:1%;
+}
+
+#scroll-down div, #scroll-down2 div
+{
+    height:10px;
+    width:10px;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom:2px solid white;
+    border-right:2px solid white;
+    transform:rotate(45deg);
+}
+
+#scroll-down:hover, #scroll-down2:hover {opacity:0.8;}
+
+
+
+/* Partie 2 */
+#partie2
+{
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    padding-bottom:70px;
+    padding-right: 60px;
+    padding-left: 60px;
+    max-width: 2000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#h1black
+{
+    background-color: black;
+    text-align: center;
+    padding-bottom:50px;
+    max-width: 2120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#p2_1 
+{
+    width:55%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:20px;
+    max-width:1500px;
+}
+
+#img_pt2
+{
+    width:15%;
+    min-width:550px;
+}
+
+#top3I:hover, #top3II:hover, #top3III:hover
+{
+    cursor:pointer;
+    position:sticky;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#top3I:hover {content: url("image/invalides-museum-in-paris-france-picture-id1222999942.jpg");}
+#top3II:hover {content: url("image/Louvre.jpg");}
+#top3III:hover {content: url("image/Centre pompidou.jpg");}
+
+#top3I,#top3II,#top3III {display:flex; background-color:rgba(28, 24, 18, 1);}
+
+.top3_1
+{
+    background-color:rgba(255, 255, 255, 1);
+    color:rgba(225, 183, 90, 1);
+    border-radius: 10px;
+    text-align:center;
+    width:20%;
+    margin:30px;
+    font-size: 100px;
+    min-width:100px;
+    max-width:150px;
+}
+
+.top3_2 {color:white; margin:30px;}
+
+
+
+#btn {margin-bottom:5px;}
+
+#btn:hover {background-color: grey;}
+
+/* NEWSLETTER*/
+
+.back_newsletter{
+    background-image: url("image/Femme\ devant\ tabs.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:2500px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 700px;
+    display : flex;
+    justify-content: space-between;
+    flex-direction:column;
+    max-width:2120px;
+}
+
+.formulaire1{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 15px;
+    max-width: 1500px;
+    color: white;
+    margin-top:200px;
+}
+
+.news{
+    text-align : center;
+}
+
+.flex_form{
+    display :  flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap : wrap;
+
+}
+
+.flex_name, .flex_surname{
+    width : max-content;
+
+}
+h1{
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border : none;
+    outline: none;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius : 3px;
+    align-self: center;
+    
+}
+
+button:hover{
+    background-color: grey;
+}
+
+input{
+    border: none;
+    margin: 5px;
+    padding : 5px;
+    outline:none;
+    border-radius: 3px;
+}
+
+
+/* PARTIE 3 */
+#partie3
+{
+    background-image: url('../PageAccueil/image/Femme devant tabs.jpg');/* penser a changer l'image*/
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    max-width:2120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@keyframes effet_zoom {
+    from {width:0px;}
+    to {width:100%;}
+}
+
+
+#hd_main {
+    background-color: grey; 
+    max-width:500px; 
+    border-radius:10px;
+    margin-left:300px; 
+}
+
+#hd_1
+{
+    margin: 50px;
+    margin: 20px;
+    background-color: black;
+    color:white;
+    text-align:center;
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+    
+}
+
+#hd_2
+{
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px;
+    padding-top:20px;
+    max-width:480px;
+}
+
+.hd_img
+{
+    border-radius:50%;
+    border:1px solid black;
+    width:20%;
+    margin:7px;
+}
+
+.hd_comm
+{
+    background-color: white;
+    margin-bottom:10px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+}
+
+.hd_comm h1 {font-size:20px; margin-bottom:5px; max-height:50px;}
+.hd_block_text {width:80%;}
+
+.para_flex {display:flex;}
+
+.p1, .p3 {font-size:75px;}
+
+
+
+/* Changement de taille */
+@media screen and (max-width:1200px)
+{
+    #partie2 
+    {
+        display:block;
+        text-align:center;
+    }
+
+    #p2_1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+    }   
+
+    #img_pt2 {display:none;}
+
+    .top3
+    {
+        display:block;
+        margin-bottom:30px;
+    }
+
+    .top3_1, .top3_2
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+
+
+
+
+/* Animations */
+@keyframes glissement_Top3
+{
+    from {margin-left: 100%;}
+    to {margin-left: 0%;}
+}

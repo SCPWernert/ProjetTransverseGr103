@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Abhaya Libre";
+    src: url('../../Menu&Footer/abhaya-libre.regular.ttf');
+}
+
+* {
+	font-family: "Abhaya Libre";
+}
+
+body{
+	background-color: #E1B75A;
+	width: 100%;
+	margin-left: 0px;
+}
+
+
+main{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+.title{
+	margin-left: auto;
+	margin-right: auto;
+	width: max-content;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*padding-top: 1px;
+	padding-bottom: 1px;*/
+	border-radius: 2px;
+}
+
+
+.avis{
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	
+}
+
+.avis1{
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.avis2{
+	font-size: medium;
+	align-self: flex-end;
+	font-weight: bolder;
+
+}
+
+.avis1, .avis2{
+	height: 0px;
+}
+
+.description{
+	text-align: center;
+    	font-weight: bold;
+}
+
+
+.map{
+	margin-left: auto;
+	margin-right: auto;
+	width : max-content;
+
+}
+
+iframe{
+	border-radius:5px;
+}
+
+iframe:hover{
+	scale: 1.0025;
+	box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.315) ;
+}
+
+.background{
+	background-image: url("paris-2775393_1920.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-attachment: fixed;
+	height:900px;
+	width: 100%;
+
+}
+
+
+@media screen and (max-width:1200px){
+	.background{
+		background-attachment:scroll;
+		height: 450px;
+	}
+}
+
+@media screen and (max-width:650px){
+	.background{
+		background-attachment:scroll;
+		height: 300px;
+	}
+
+	iframe{
+		width : 100%;
+	}
+}

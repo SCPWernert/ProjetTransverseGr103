@@ -1,0 +1,49 @@
+* {
+  margin:0;
+  font-family: "Abhaya Libre";
+}
+
+#navbar{
+  position: relative;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url('abhaya-libre.regular.ttf');
+}
+
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.titre{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #E1B75A;
+}
+
+/*Images*/
+.musees{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 660px;
+    height: 448px;
+}
+
+.description{
+  margin-top: 20px;
+  text-align: center;
+  color: #E1B75A;
+}
+

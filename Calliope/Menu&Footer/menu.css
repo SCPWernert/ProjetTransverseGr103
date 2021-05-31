@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url('abhaya-libre.regular.ttf');
+}
+
+
+/*Barre de menu*/
+
+#navbar
+{
+  background-color: black;
+  transform:translateY(-30px);
+  animation: menu 0.4s 1s ease-out forwards;
+  top:0px;
+  position:sticky;
+  max-width:2120px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+a{
+  text-decoration:none; 
+}
+
+#navbar, .navbar_bloc_infos
+{
+  display:flex;
+  justify-content:space-between;
+ 
+}
+
+.navbar_infos
+{
+  padding:20px;
+  font-size:20px;
+  font-family: "Abhaya Libre";
+  font-weight: bold;
+  color:#E1B75A;   
+  max-height: 25px; 
+}
+
+/*Bouton pour s'inscrire/se connecter*/
+.navbar_icônes
+{
+  max-height: 25px;
+  padding:5px;
+  border-radius: 10px;  
+  margin-top:10px;
+  padding:10px;
+}
+
+/*Effet qui s'actionne lorsque le pointeur de la souris passe sur l'élément*/
+.navbar_icônes:hover
+  {
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.700));
+    cursor:pointer;
+  }
+.navbar_infos:hover
+{
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+
+footer{
+  background-color: black;
+  height: max-content;
+  margin-top: 15px;
+  position:relative;
+  bottom:0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.footer{
+  display  : flex;
+  width : 40%;
+  margin-left: auto;
+  margin-right : auto;
+  justify-content: space-between;
+}
+
+
+.foot{
+  padding : 10px;
+  color:#E1B75A;  
+  text-decoration:none; 
+}
+
+.foot:hover{
+  
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.700));
+    cursor:pointer;
+  }
+
+
+
+
+@media screen and (max-width:650px)
+{
+  .navbar_bloc_connexion,.navbar_infos {text-align:center;}
+
+  #navbar, .navbar_bloc_infos {display:block;}
+
+  #navbar 
+  {
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    position:static;
+  }
+}
+
+
+/*Effet transition*/
+@keyframes menu 
+{
+  100%{
+    opacity:1;
+    transform:none;
+  }
+}
